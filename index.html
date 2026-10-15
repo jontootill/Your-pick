@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Your Pick</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- START SCREEN -->
+  <div id="start-screen" class="screen">
+    <h1>Your Pick</h1>
+    <p class="subtitle">A little game for two</p>
+
+    <div class="input-group">
+      <label>Player 1</label>
+      <input type="text" id="player1-name" placeholder="Name" value="Player 1">
+    </div>
+
+    <div class="input-group">
+      <label>Player 2</label>
+      <input type="text" id="player2-name" placeholder="Name" value="Player 2">
+    </div>
+
+    <div class="heat-select">
+      <p>Starting heat level</p>
+      <div class="heat-buttons">
+        <button class="heat-btn active" data-heat="vanilla">Vanilla</button>
+        <button class="heat-btn" data-heat="medium">Medium</button>
+        <button class="heat-btn" data-heat="spicy">Spicy</button>
+      </div>
+    </div>
+
+    <button id="start-btn" class="main-btn">Start Game</button>
+  </div>
+
+  <!-- GAME SCREEN -->
+  <div id="game-screen" class="screen hidden">
+    <div class="top-bar">
+      <span id="current-heat">Vanilla</span>
+      <button id="change-heat-btn">Change Heat</button>
+    </div>
+
+    <h2 id="question-text">Question goes here</h2>
+
+    <!-- THIS SECTION WAS PROBABLY MISSING -->
+    <div id="turn-section">
+      <p class="turn-label">Whose turn is it?</p>
+      <div class="turn-buttons">
+        <button id="p1-turn-btn" class="turn-btn">Player 1</button>
+        <button id="p2-turn-btn" class="turn-btn">Player 2</button>
+      </div>
+    </div>
+
+    <div id="options-container" class="options hidden"></div>
+
+    <div class="status">
+      <div id="p1-status">Not chosen yet</div>
+      <div id="p2-status">Not chosen yet</div>
+    </div>
+
+    <button id="reveal-btn" class="main-btn" disabled>Reveal Choices</button>
+  </div>
+
+  <!-- REVEAL SCREEN -->
+  <div id="reveal-screen" class="screen hidden">
+    <div id="reveal-content"></div>
+    <button id="next-btn" class="main-btn">Next Round</button>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
