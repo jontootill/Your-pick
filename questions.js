@@ -51,6 +51,7 @@ const imagePools = {
     { src: "images/vanilla/activities/walking.jpeg", gender: "neutral", label: "going for a long walk" },
     { src: "images/vanilla/activities/bath-together.jpeg", gender: "neutral", label: "having a bath together" },
     { src: "images/vanilla/activities/hug-from-behind.jpeg", gender: "neutral", label: "a long hug from behind" },
+    { src: "images/vanilla/activities/paintballing.jpeg", gender: "neutral", label: "paintballing" },
     { src: "images/vanilla/activities/rainy-window.jpeg", gender: "neutral", label: "sitting by the window in the rain" },
     { src: "images/vanilla/activities/breakfast-bed.jpeg", gender: "neutral", label: "breakfast in bed" }
   ]
@@ -106,27 +107,25 @@ const imagePools = {
   spicy: {
     people: [
     { src: "images/spicy/people/spread-legs-female.jpeg", gender: "female", label: "these open legs" },
-    { src: "images/spicy/people/rock-hard-penis.jpeg", gender: "male", label: "rock hard penis" },
+    { src: "images/spicy/people/rock-hard-penis.jpeg", gender: "male", label: "this rock hard penis" },
     { src: "images/spicy/people/wet-vagina.jpeg", gender: "female", label: "this wet vagina" },
     { src: "images/spicy/people/bum-up.jpeg", gender: "neutral", label: "this bum in the air" },
     { src: "images/spicy/people/mouth-ready.jpeg", gender: "neutral", label: "this open mouth ready" },
     { src: "images/spicy/people/arching-moaning.jpeg", gender: "neutral", label: "this arched back moaning" },
     { src: "images/spicy/people/cum-on-chest.jpeg", gender: "neutral", label: "cum on chest" },
     { src: "images/spicy/people/cum-on-penis.jpeg", gender: "neutral", label: "cum on penis" },
-    { src: "images/spicy/people/holding-penis.jpeg", gender: "male", label: "penis being held" },
+    { src: "images/spicy/people/holding-penis.jpeg", gender: "male", label: "your penis being held" },
     { src: "images/spicy/people/touching-labia.jpeg", gender: "female", label: "touching your labia" }
   ],
     objects: [
     { src: "images/spicy/objects/thick-dildo.jpeg", gender: "neutral", label: "this thick dildo" },
     { src: "images/spicy/objects/vibrator-wand.jpeg", gender: "neutral", label: "this vibrator wand" },
     { src: "images/spicy/objects/butt-plug.jpeg", gender: "neutral", label: "this butt plug" },
-    { src: "images/spicy/objects/handcuffs.jpeg", gender: "neutral", label: "these metal handcuffs" },
+    { src: "images/spicy/objects/nipple-clamps.jpeg", gender: "neutral", label: "these metal nipple clamps" },
     { src: "images/spicy/objects/collar-leash.jpeg", gender: "neutral", label: "this collar and leash" },
-    { src: "images/spicy/objects/paddle.jpeg", gender: "neutral", label: "this spanking paddle" },
-    { src: "images/spicy/objects/rope.jpeg", gender: "neutral", label: "this rope" },
-    { src: "images/spicy/objects/ball-gag.jpeg", gender: "neutral", label: "this ball gag" },
-    { src: "images/spicy/objects/lube-bottle.jpeg", gender: "neutral", label: "this bottle of lube" },
-    { src: "images/spicy/objects/vibrator-remote.jpeg", gender: "neutral", label: "this remote vibrator" }
+    { src: "images/spicy/objects/whip.jpeg", gender: "neutral", label: "this whip" },
+    { src: "images/spicy/objects/anal-beads.jpeg", gender: "neutral", label: "these anal beads" },
+    { src: "images/spicy/objects/condom.jpeg", gender: "neutral", label: "this condom" }
   ],
     activities: [
     { src: "images/spicy/activities/woman-oral.jpeg", gender: "neutral", label: "giving oral" },
@@ -134,16 +133,15 @@ const imagePools = {
     { src: "images/spicy/activities/from-behind.jpeg", gender: "neutral", label: "from behind" },
     { src: "images/spicy/activities/anal.jpeg", gender: "neutral", label: "anal" },
     { src: "images/spicy/activities/riding-face.jpeg", gender: "neutral", label: "riding face" },
-    { src: "images/spicy/activities/on-top.jpeg", gender: "neutral", label: "you on top" },
+    { src: "images/spicy/activities/straddling.jpeg", gender: "neutral", label: "you on top" },
     { src: "images/spicy/activities/against-the-wall.jpeg", gender: "neutral", label: "against the wall" },
-    { src: "images/spicy/activities/tied-up.jpeg", gender: "neutral", label: "being tied up" },
+    { src: "images/spicy/activities/tied-up-male.jpeg", gender: "neutral", label: "being tied up" },
+    { src: "images/spicy/activities/tied-up-female.jpeg", gender: "neutral", label: "being tied up" },
     { src: "images/spicy/activities/spanking.jpeg", gender: "neutral", label: "a good spanking" },
     { src: "images/spicy/activities/eye-contact.jpeg", gender: "neutral", label: "intense eye contact" },
-    { src: "images/spicy/activities/hair-pulling.jpeg", gender: "neutral", label: "hair pulling" },
     { src: "images/spicy/activities/rough-doggy.jpeg", gender: "neutral", label: "rough doggy style" },
     { src: "images/spicy/activities/riding-hard.jpeg", gender: "neutral", label: "riding hard" },
     { src: "images/spicy/activities/choking.jpeg", gender: "neutral", label: "light choking" },
-    { src: "images/spicy/activities/sixtynine.jpeg", gender: "neutral", label: "sixty nine" }
   ]
   }
 };

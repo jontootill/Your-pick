@@ -6,6 +6,8 @@ let currentQuestion = null;
 let player1Choice = null;
 let player2Choice = null;
 let currentPlayer = null;
+let roundCount = 0;
+const MAX_ROUNDS = 4;
 let usedQuestions = {
   vanilla: [],
   medium: [],
@@ -171,14 +173,27 @@ document.getElementById("reveal-btn").addEventListener("click", () => {
 
 // ========== NEXT ROUND ==========
 document.getElementById("next-btn").addEventListener("click", () => {
+  roundCount++;
+
+  if (roundCount >= MAX_ROUNDS) {
+    // Return to home after 4 rounds
+    roundCount = 0;
+    usedQuestions = { vanilla: [], medium: [], spicy: [] }; // optional reset
+    document.getElementById("reveal-screen").classList.add("hidden");
+    document.getElementById("game-screen").classList.add("hidden");
+    document.getElementById("start-screen").classList.remove("hidden");
+    return;
+  }
+
   document.getElementById("reveal-screen").classList.add("hidden");
   document.getElementById("game-screen").classList.remove("hidden");
   loadNewQuestion();
 });
 
-// ========== CHANGE HEAT ==========
-document.getElementById("change-heat-btn").addEventListener("click", () => {
-  const levels = ["vanilla", "medium", "spicy"];
-  currentHeat = levels[(levels.indexOf(currentHeat) + 1) % 3];
-  loadNewQuestion();
+document.getElementById("home-link").addEventListener("click", () => {
+  roundCount = 0;
+  usedQuestions = { vanilla: [], medium: [], spicy: [] };
+  document.getElementById("game-screen").classList.add("hidden");
+  document.getElementById("reveal-screen").classList.add("hidden");
+  document.getElementById("start-screen").classList.remove("hidden");
 });
