@@ -17,6 +17,14 @@ const imagePools = {
     { src: "images/vanilla/people/morning-peaceful-male.jpeg", gender: "male", label: "this peaceful look" },
     { src: "images/vanilla/people/flirty-female.jpeg", gender: "female", label: "this slightly flirty glance" },
     { src: "images/vanilla/people/flirty-male.jpeg", gender: "male", label: "this slightly flirty glance" },
+    { src: "images/vanilla/people/silly-face-female.jpeg", gender: "female", label: "this ridiculous silly face" },
+    { src: "images/vanilla/people/silly-face-male.jpeg", gender: "male", label: "this ridiculous silly face" },
+    { src: "images/vanilla/people/surprised-face-female.jpeg", gender: "female", label: "this over-the-top surprised face" },
+    { src: "images/vanilla/people/surprised-face-male.jpeg", gender: "male", label: "this over-the-top surprised face" },
+    { src: "images/vanilla/people/dramatic-pose-female.jpeg", gender: "female", label: "this dramatic pose" },
+    { src: "images/vanilla/people/dramatic-pose-male.jpeg", gender: "male", label: "this dramatic pose" },
+    { src: "images/vanilla/people/peace-sign-female.jpeg", gender: "female", label: "this cheesy peace-sign face" },
+    { src: "images/vanilla/people/peace-sign-male.jpeg", gender: "male", label: "this cheesy peace-sign face" },
 
     // Outfits / full body
     { src: "images/vanilla/people/smart-casual-female.jpeg", gender: "female", label: "this smart casual look" },
@@ -41,6 +49,26 @@ const imagePools = {
     { src: "images/vanilla/objects/book.jpeg", gender: "neutral", label: "this book" },
     { src: "images/vanilla/objects/takeaway.jpeg", gender: "neutral", label: "this takeaway" },
     { src: "images/vanilla/objects/bath.jpeg", gender: "neutral", label: "this warm bath" },
+    { src: "images/vanilla/objects/rubber-duck.jpeg", gender: "neutral", label: "this rubber duck" },
+    { src: "images/vanilla/objects/giant-teddy.jpeg", gender: "neutral", label: "this giant teddy bear" },
+    { src: "images/vanilla/objects/silly-hat.jpeg", gender: "neutral", label: "this ridiculous hat" },
+    { src: "images/vanilla/objects/whoopee-cushion.jpeg", gender: "neutral", label: "this whoopee cushion" },
+    { src: "images/vanilla/objects/pizza-box.jpeg", gender: "neutral", label: "this pizza box" },
+    { src: "images/vanilla/objects/remote-control.jpeg", gender: "neutral", label: "the TV remote" },
+    { src: "images/vanilla/objects/plant-pot.jpeg", gender: "neutral", label: "this slightly sad houseplant" },
+    { src: "images/vanilla/objects/socks.jpeg", gender: "neutral", label: "these mismatched socks" },
+    { src: "images/vanilla/objects/rubber-gloves.jpeg", gender: "neutral", label: "these rubber gloves" },
+    { src: "images/vanilla/objects/banana.jpeg", gender: "neutral", label: "this banana" },
+    { src: "images/vanilla/objects/cucumber.jpeg", gender: "neutral", label: "this cucumber" },
+    { src: "images/vanilla/objects/spatula.jpeg", gender: "neutral", label: "this spatula" },
+    { src: "images/vanilla/objects/tie.jpeg", gender: "neutral", label: "this necktie" },
+    { src: "images/vanilla/objects/wooden-ruler.jpeg", gender: "neutral", label: "this wooden ruler" },
+    { src: "images/vanilla/objects/ice-lolly.jpeg", gender: "neutral", label: "this ice lolly" },
+    { src: "images/vanilla/objects/balloon.jpeg", gender: "neutral", label: "this balloon" },
+    { src: "images/vanilla/objects/whisk.jpeg", gender: "neutral", label: "this whisk" },
+    { src: "images/vanilla/objects/oven-mitt.jpeg", gender: "neutral", label: "this oven mitt" },
+    { src: "images/vanilla/objects/clothes-peg.jpeg", gender: "neutral", label: "these clothes pegs" },
+    { src: "images/vanilla/objects/silly-straw.jpeg", gender: "neutral", label: "this silly straw" }
   ],
 
   activities: [
@@ -53,7 +81,11 @@ const imagePools = {
     { src: "images/vanilla/activities/hug-from-behind.jpeg", gender: "neutral", label: "a long hug from behind" },
     { src: "images/vanilla/activities/paintballing.jpeg", gender: "neutral", label: "paintballing" },
     { src: "images/vanilla/activities/rainy-window.jpeg", gender: "neutral", label: "sitting by the window in the rain" },
-    { src: "images/vanilla/activities/breakfast-bed.jpeg", gender: "neutral", label: "breakfast in bed" }
+    { src: "images/vanilla/activities/breakfast-bed.jpeg", gender: "neutral", label: "breakfast in bed" },
+    { src: "images/vanilla/activities/pillow-fight.jpeg", gender: "neutral", label: "a pillow fight" },
+    { src: "images/vanilla/activities/dance-party.jpeg", gender: "neutral", label: "a living-room dance party" },
+    { src: "images/vanilla/activities/building-sandcastle.jpeg", gender: "neutral", label: "building a sandcastle" },
+    { src: "images/vanilla/activities/tickle-fight.jpeg", gender: "neutral", label: "a tickle fight" }
   ]
   },
 
@@ -66,15 +98,12 @@ const imagePools = {
     { src: "images/medium/people/lower-back-male.jpeg", gender: "male", label: "this lower back" },
     { src: "images/medium/people/collarbone-female.jpeg", gender: "female", label: "these collarbones" },
     { src: "images/medium/people/collarbone-male.jpeg", gender: "male", label: "these collarbones" },
-    { src: "images/medium/people/small-penis-male.jpeg", gender: "male", label: "this man with a small penis" },
-    { src: "images/medium/people/large-penis-male.jpeg", gender: "male", label: "this man with a large" },
-    { src: "images/medium/people/topless-large-breasted-female.jpeg", gender: "female", label: "this topless woman with large breasts" },
-{ src: "images/medium/people/topless-muscular-male.jpeg", gender: "male", label: "this topless muscular man" },
-{ src: "images/medium/people/topless-small-breasted-female.jpeg", gender: "female", label: "this topless woman with small breasts" },
-{ src: "images/medium/people/seductive-lying-female.jpeg", gender: "female", label: "this woman lying seductively" },
-{ src: "images/medium/people/seductive-lying-male.jpeg", gender: "male", label: "this man lying seductively" },
-{ src: "images/medium/people/nude-female-back.jpeg", gender: "female", label: "this woman viewed from behind" },
-{ src: "images/medium/people/nude-male-back.jpeg", gender: "male", label: "this man viewed from behind" },
+    { src: "images/medium/people/nude-female-back.jpeg", gender: "female", label: "this woman viewed from behind" },
+    { src: "images/medium/people/nude-male-back.jpeg", gender: "male", label: "this man viewed from behind" },
+    { src: "images/medium/people/lingerie-female.jpeg", gender: "female", label: "this woman wearing lingerie" },
+    { src: "images/medium/people/y-fronts-male.jpeg", gender: "male", label: "this man wearing budgie smugglers" },
+    { src: "images/medium/people/babydoll-female.jpeg", gender: "female", label: "this woman wearing a babydoll" }
+
   ],
 
     objects: [
@@ -85,11 +114,11 @@ const imagePools = {
     { src: "images/medium/objects/chocolate.jpeg", gender: "neutral", label: "this box of chocolates" },
     { src: "images/medium/objects/rose-petals.jpeg", gender: "neutral", label: "these scattered rose petals" },
     { src: "images/medium/objects/candlelight.jpeg", gender: "neutral", label: "this flickering candle" },
-    { src: "images/medium/objects/necklace.jpeg", gender: "neutral", label: "this delicate necklace" },
+    { src: "images/medium/objects/necklace.jpeg", gender: "female", label: "this delicate necklace" },
     { src: "images/medium/objects/ice-cubes.jpeg", gender: "neutral", label: "these melting ice cubes" },
     { src: "images/medium/objects/feather.jpeg", gender: "neutral", label: "this soft feather" },
     { src: "images/medium/objects/handcuffs.jpeg", gender: "neutral", label: "these playful restraints" },
-    { src: "images/medium/objects/lingerie.jpeg", gender: "neutral", label: "this lingerie" }
+    { src: "images/medium/objects/lingerie.jpeg", gender: "female", label: "this lingerie" }
     ],
 
     activities: [
@@ -101,7 +130,24 @@ const imagePools = {
     { src: "images/medium/activities/paintballing.jpeg", gender: "neutral", label: "paintballing" },
     { src: "images/medium/activities/kitchen-counter.jpeg", gender: "neutral", label: "on the kitchen counter" },
     { src: "images/medium/activities/shower-together.jpeg", gender: "neutral", label: "in the shower together" },
-    { src: "images/medium/activities/massage.jpeg", gender: "neutral", label: "a long massage" }]
+    { src: "images/medium/activities/massage.jpeg", gender: "neutral", label: "a long massage" },
+    { src: "images/medium/activities/car-kiss.jpeg", gender: "neutral", label: "kissing in the car" },
+    { src: "images/medium/activities/parked-car-touch.jpeg", gender: "neutral", label: "touching in a parked car" },
+    { src: "images/medium/activities/changing-room.jpeg", gender: "neutral", label: "sneaking a kiss in a changing room" },
+    { src: "images/medium/activities/shop-aisle.jpeg", gender: "neutral", label: "a quick touch while shopping" },
+    { src: "images/medium/activities/lift-kiss.jpeg", gender: "neutral", label: "kissing in a lift" },
+    { src: "images/medium/activities/cinema-kiss.jpeg", gender: "neutral", label: "a secret kiss in the cinema" },
+    { src: "images/medium/activities/balcony-kiss.jpeg", gender: "neutral", label: "kissing on a balcony" },
+    { src: "images/medium/activities/car-park.jpeg", gender: "neutral", label: "pressed against a car in a quiet car park" },
+    { src: "images/medium/activities/alley-kiss.jpeg", gender: "neutral", label: "a secret kiss down an alley" },
+    { src: "images/medium/activities/beach-blanket.jpeg", gender: "neutral", label: "touching under a beach blanket" },
+    { src: "images/medium/activities/forest-path.jpeg", gender: "neutral", label: "kissing on a quiet forest path" },
+    { src: "images/medium/activities/garden-night.jpeg", gender: "neutral", label: "kissing in the garden after dark" },
+    { src: "images/medium/activities/public-dare.jpeg", gender: "neutral", label: "a daring touch in a public place" },
+    { src: "images/medium/activities/couple-paddleboarding.jpeg", gender: "neutral", label: "paddleboarding together in the sea" },
+    { src: "images/medium/activities/shaving-pubes.jpeg", gender: "neutral", label: "shaving each others' pubes" },
+    { src: "images/medium/activities/couple-yoga.jpeg", gender: "neutral", label: "doing yoga together in our underwear" },
+]
   },
 
   spicy: {
@@ -110,38 +156,42 @@ const imagePools = {
     { src: "images/spicy/people/rock-hard-penis.jpeg", gender: "male", label: "this rock hard penis" },
     { src: "images/spicy/people/wet-vagina.jpeg", gender: "female", label: "this wet vagina" },
     { src: "images/spicy/people/bum-up.jpeg", gender: "neutral", label: "this bum in the air" },
-    { src: "images/spicy/people/mouth-ready.jpeg", gender: "neutral", label: "this open mouth ready" },
-    { src: "images/spicy/people/arching-moaning.jpeg", gender: "neutral", label: "this arched back moaning" },
-    { src: "images/spicy/people/cum-on-chest.jpeg", gender: "neutral", label: "cum on chest" },
-    { src: "images/spicy/people/cum-on-penis.jpeg", gender: "neutral", label: "cum on penis" },
+    { src: "images/spicy/people/mouth-ready.jpeg", gender: "female", label: "this open mouth ready" },
+    { src: "images/spicy/people/arching-moaning.jpeg", gender: "female", label: "this arched back moaning" },
     { src: "images/spicy/people/holding-penis.jpeg", gender: "male", label: "your penis being held" },
-    { src: "images/spicy/people/touching-labia.jpeg", gender: "female", label: "touching your labia" }
+    { src: "images/spicy/people/touching-labia.jpeg", gender: "female", label: "touching your labia" },
+    { src: "images/spicy/people/small-penis-male.jpeg", gender: "male", label: "this man with a small penis" },
+    { src: "images/spicy/people/large-penis-male.jpeg", gender: "male", label: "this man with a large penis" },
+    { src: "images/spicy/people/topless-large-breasted-female.jpeg", gender: "female", label: "this topless woman with large breasts" },
+    { src: "images/spicy/people/topless-muscular-male.jpeg", gender: "male", label: "this topless muscular man" },
+    { src: "images/spicy/people/topless-small-breasted-female.jpeg", gender: "female", label: "this topless woman with small breasts" },
+    { src: "images/spicy/people/seductive-lying-female.jpeg", gender: "female", label: "this woman lying seductively" },
+    { src: "images/spicy/people/seductive-lying-male.jpeg", gender: "male", label: "this man lying seductively" },
+  
   ],
     objects: [
-    { src: "images/spicy/objects/thick-dildo.jpeg", gender: "neutral", label: "this thick dildo" },
+    { src: "images/spicy/objects/thick-dildo.jpeg", gender: "female", label: "this thick dildo" },
     { src: "images/spicy/objects/vibrator-wand.jpeg", gender: "neutral", label: "this vibrator wand" },
     { src: "images/spicy/objects/butt-plug.jpeg", gender: "neutral", label: "this butt plug" },
     { src: "images/spicy/objects/nipple-clamps.jpeg", gender: "neutral", label: "these metal nipple clamps" },
-    { src: "images/spicy/objects/collar-leash.jpeg", gender: "neutral", label: "this collar and leash" },
-    { src: "images/spicy/objects/whip.jpeg", gender: "neutral", label: "this whip" },
     { src: "images/spicy/objects/anal-beads.jpeg", gender: "neutral", label: "these anal beads" },
-    { src: "images/spicy/objects/condom.jpeg", gender: "neutral", label: "this condom" }
+    { src: "images/spicy/objects/condom.jpeg", gender: "male", label: "this condom" }
   ],
     activities: [
-    { src: "images/spicy/activities/woman-oral.jpeg", gender: "neutral", label: "giving oral" },
-    { src: "images/spicy/activities/man-oral.jpeg", gender: "neutral", label: "giving oral" },
+    { src: "images/spicy/activities/woman-oral.jpeg", gender: "female", label: "giving oral" },
+    { src: "images/spicy/activities/man-oral.jpeg", gender: "male", label: "giving oral" },
     { src: "images/spicy/activities/from-behind.jpeg", gender: "neutral", label: "from behind" },
     { src: "images/spicy/activities/anal.jpeg", gender: "neutral", label: "anal" },
     { src: "images/spicy/activities/riding-face.jpeg", gender: "neutral", label: "riding face" },
     { src: "images/spicy/activities/straddling.jpeg", gender: "neutral", label: "you on top" },
     { src: "images/spicy/activities/against-the-wall.jpeg", gender: "neutral", label: "against the wall" },
-    { src: "images/spicy/activities/tied-up-male.jpeg", gender: "neutral", label: "being tied up" },
-    { src: "images/spicy/activities/tied-up-female.jpeg", gender: "neutral", label: "being tied up" },
+    { src: "images/spicy/activities/tied-up-male.jpeg", gender: "male", label: "being tied up" },
+    { src: "images/spicy/activities/tied-up-female.jpeg", gender: "female", label: "being tied up" },
     { src: "images/spicy/activities/spanking.jpeg", gender: "neutral", label: "a good spanking" },
-    { src: "images/spicy/activities/eye-contact.jpeg", gender: "neutral", label: "intense eye contact" },
     { src: "images/spicy/activities/rough-doggy.jpeg", gender: "neutral", label: "rough doggy style" },
     { src: "images/spicy/activities/riding-hard.jpeg", gender: "neutral", label: "riding hard" },
-    { src: "images/spicy/activities/choking.jpeg", gender: "neutral", label: "light choking" },
+    { src: "images/spicy/activities/holding-penis.jpeg", gender: "male", label: "holding your penis" },
+    { src: "images/spicy/activities/touching-labia.jpeg", gender: "female", label: "touching your labia" }
   ]
   }
 };
@@ -161,6 +211,66 @@ const questions = {
   pools: ["people", "objects"],
   count: 3,
   reveal: "would most want to wake up next to"
+},
+{
+  question: "Which would you most want to do with me if we had a completely free afternoon?",
+  pools: ["activities", "objects", "people"],
+  count: 3,
+  reveal: "would most want to do"
+},
+{
+  question: "Which would make you laugh the most if it appeared right now?",
+  pools: ["people", "objects", "activities"],
+  count: 3,
+  reveal: "would make you laugh the most"
+},
+{
+  question: "Which would you most want to find waiting for you on the sofa?",
+  pools: ["people", "objects"],
+  count: 3,
+  reveal: "would most want to find on the sofa"
+},
+{
+  question: "Which would you most want me to bring you in bed?",
+  pools: ["objects", "people"],
+  count: 3,
+  reveal: "would most want me to bring you in bed"
+},
+{
+  question: "Which would you most want to do together in complete silence?",
+  pools: ["activities", "objects"],
+  count: 3,
+  reveal: "would most want to do in silence"
+},
+{
+  question: "Which would you most want to turn into a silly tradition?",
+  pools: ["activities", "objects"],
+  count: 3,
+  reveal: "would most want to turn into a silly tradition"
+},
+{
+  question: "Which would you most want to wake up and find next to you?",
+  pools: ["people", "objects"],
+  count: 3,
+  reveal: "would most want to wake up next to"
+},
+{
+  question: "Which would you most want me to do while making ridiculous faces?",
+  pools: ["people", "activities"],
+  count: 3,
+  reveal: "would most want me to do while making ridiculous faces"
+},
+{
+  question: "Which would you most want to share under a blanket fort?",
+  pools: ["objects", "activities", "people"],
+  count: 3,
+  reveal: "would most want to share under a blanket fort"
+},
+{
+  question: "Which would you most want to do if we both became five years old again for one hour?",
+  pools: ["activities", "objects", "people"],
+  count: 3,
+  reveal: "would most want to do as five-year-olds"
 },
 {
   question: "Which would you most want me to wear for you?",

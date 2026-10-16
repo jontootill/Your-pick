@@ -9,31 +9,41 @@
 <body>
 
   <!-- START SCREEN -->
-  <div id="start-screen" class="screen">
-    <h1>Your Pick</h1>
-    <p class="subtitle">A little game for two</p>
+<div id="start-screen" class="screen">
+  <h1>Your Pick</h1>
+  <p class="subtitle">A little game for two</p>
 
-    <div class="input-group">
+  <div class="player-setup">
+    <div class="player-box">
       <label>Player 1</label>
       <input type="text" id="player1-name" placeholder="Name" value="Player 1">
-    </div>
-
-    <div class="input-group">
-      <label>Player 2</label>
-      <input type="text" id="player2-name" placeholder="Name" value="Player 2">
-    </div>
-
-    <div class="heat-select">
-      <p>Starting heat level</p>
-      <div class="heat-buttons">
-        <button class="heat-btn active" data-heat="vanilla">Vanilla</button>
-        <button class="heat-btn" data-heat="medium">Medium</button>
-        <button class="heat-btn" data-heat="spicy">Spicy</button>
+      <div class="gender-select">
+        <button class="gender-btn active" data-player="1" data-gender="female">Female</button>
+        <button class="gender-btn" data-player="1" data-gender="male">Male</button>
       </div>
     </div>
 
-    <button id="start-btn" class="main-btn">Start Game</button>
+    <div class="player-box">
+      <label>Player 2</label>
+      <input type="text" id="player2-name" placeholder="Name" value="Player 2">
+      <div class="gender-select">
+        <button class="gender-btn active" data-player="2" data-gender="male">Male</button>
+        <button class="gender-btn" data-player="2" data-gender="female">Female</button>
+      </div>
+    </div>
   </div>
+
+  <div class="heat-select">
+    <p>Starting heat level</p>
+    <div class="heat-buttons">
+      <button class="heat-btn active" data-heat="vanilla">Vanilla</button>
+      <button class="heat-btn" data-heat="medium">Medium</button>
+      <button class="heat-btn" data-heat="spicy">Spicy</button>
+    </div>
+  </div>
+
+  <button id="start-btn" class="main-btn">Start Game</button>
+</div>
 
   <!-- GAME SCREEN -->
   <div id="game-screen" class="screen hidden">
