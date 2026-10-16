@@ -83,6 +83,7 @@ const imagePools = {
     { src: "images/vanilla/activities/rainy-window.jpeg", gender: "neutral", label: "sitting by the window in the rain" },
     { src: "images/vanilla/activities/breakfast-bed.jpeg", gender: "neutral", label: "breakfast in bed" },
     { src: "images/vanilla/activities/pillow-fight.jpeg", gender: "neutral", label: "a pillow fight" },
+        { src: "images/vanilla/activities/running.jpeg", gender: "neutral", label: "going for a run" },
     { src: "images/vanilla/activities/dance-party.jpeg", gender: "neutral", label: "a living-room dance party" },
     { src: "images/vanilla/activities/building-sandcastle.jpeg", gender: "neutral", label: "building a sandcastle" },
     { src: "images/vanilla/activities/tickle-fight.jpeg", gender: "neutral", label: "a tickle fight" }
@@ -96,6 +97,8 @@ const imagePools = {
     { src: "images/medium/people/neck-kiss-male.jpeg", gender: "male", label: "this soft neck" },
     { src: "images/medium/people/lower-back-female.jpeg", gender: "female", label: "this lower back" },
     { src: "images/medium/people/lower-back-male.jpeg", gender: "male", label: "this lower back" },
+    { src: "images/medium/people/yoga-female.jpeg", gender: "female", label: "this yoga outfit" },
+    { src: "images/medium/people/yoga-male.jpeg", gender: "male", label: "this yoga outfit" },
     { src: "images/medium/people/collarbone-female.jpeg", gender: "female", label: "these collarbones" },
     { src: "images/medium/people/collarbone-male.jpeg", gender: "male", label: "these collarbones" },
     { src: "images/medium/people/nude-female-back.jpeg", gender: "female", label: "this woman viewed from behind" },
@@ -123,6 +126,7 @@ const imagePools = {
 
     activities: [
     { src: "images/medium/activities/kissing-neck.jpeg", gender: "neutral", label: "kissing your neck" },
+        { src: "images/medium/activities/running-naked.jpeg", gender: "neutral", label: "running naked on a beach" },
     { src: "images/medium/activities/pressed-against-wall.jpeg", gender: "neutral", label: "being pressed against the wall" },
     { src: "images/medium/activities/on-the-sofa.jpeg", gender: "neutral", label: "on the sofa together" },
     { src: "images/medium/activities/slow-undressing.jpeg", gender: "neutral", label: "slow undressing" },
