@@ -166,12 +166,15 @@ function startPlayerTurn(playerKey) {
   const selected = shuffled.slice(0, currentQuestion.count || 3);
 
   selected.forEach(img => {
-    const card = document.createElement("div");
-    card.className = "option-card";
-    card.innerHTML = `<img src="${img.src}" alt="Option">`;
-    card.addEventListener("click", () => selectOption(img));
-    container.appendChild(card);
-  });
+  const card = document.createElement("div");
+  card.className = "option-card";
+  card.innerHTML = `
+    <img src="${img.src}" alt="${img.label}">
+    <div class="option-label">${img.label}</div>
+  `;
+  card.addEventListener("click", () => selectOption(img));
+  container.appendChild(card);
+});
 }
 
 function selectOption(option) {

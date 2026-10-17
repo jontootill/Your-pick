@@ -83,10 +83,10 @@ const imagePools = {
     { src: "images/vanilla/activities/rainy-window.jpeg", gender: "neutral", label: "sitting by the window in the rain" },
     { src: "images/vanilla/activities/breakfast-bed.jpeg", gender: "neutral", label: "breakfast in bed" },
     { src: "images/vanilla/activities/pillow-fight.jpeg", gender: "neutral", label: "a pillow fight" },
-        { src: "images/vanilla/activities/running.jpeg", gender: "neutral", label: "going for a run" },
+    { src: "images/vanilla/activities/running.jpeg", gender: "neutral", label: "going for a run" },
     { src: "images/vanilla/activities/dance-party.jpeg", gender: "neutral", label: "a living-room dance party" },
     { src: "images/vanilla/activities/building-sandcastle.jpeg", gender: "neutral", label: "building a sandcastle" },
-    { src: "images/vanilla/activities/tickle-fight.jpeg", gender: "neutral", label: "a tickle fight" }
+    { src: "images/vanilla/activities/running.jpeg", gender: "neutral", label: "running together" }
   ]
   },
 
@@ -151,6 +151,7 @@ const imagePools = {
     { src: "images/medium/activities/couple-paddleboarding.jpeg", gender: "neutral", label: "paddleboarding together in the sea" },
     { src: "images/medium/activities/shaving-pubes.jpeg", gender: "neutral", label: "shaving each others' pubes" },
     { src: "images/medium/activities/couple-yoga.jpeg", gender: "neutral", label: "doing yoga together in our underwear" },
+    { src: "images/medium/activities/running-naked.jpeg", gender: "neutral", label: "running naked on the beach" }
 ]
   },
 
@@ -242,7 +243,7 @@ const questions = {
 },
 {
   question: "Which would you most want to do together in complete silence?",
-  pools: ["activities", "objects"],
+  pools: ["activities"],
   count: 3,
   reveal: "would most want to do in silence"
 },
@@ -260,12 +261,12 @@ const questions = {
 },
 {
   question: "Which would you most want me to do while making ridiculous faces?",
-  pools: ["people", "activities"],
+  pools: ["activities"],
   count: 3,
   reveal: "would most want me to do while making ridiculous faces"
 },
 {
-  question: "Which would you most want to share under a blanket fort?",
+  question: "Which would you most want to share when making a sandcastle?",
   pools: ["objects", "activities", "people"],
   count: 3,
   reveal: "would most want to share under a blanket fort"
@@ -278,7 +279,7 @@ const questions = {
 },
 {
   question: "Which would you most want me to wear for you?",
-  pools: ["people", "objects"],
+  pools: ["objects"],
   count: 3,
   reveal: "would most want me to wear"
 },
@@ -301,10 +302,10 @@ const questions = {
   reveal: "would most want to hold"
 },
 {
-  question: "Which would you most want to watch / look at together tonight?",
+  question: "Which would you most want to look at together tonight?",
   pools: ["people", "objects", "activities"],
   count: 3,
-  reveal: "would most want to watch"
+  reveal: "would most want to look at "
 },
 {
   question: "Which would you most want me to leave on the pillow for you?",
@@ -319,10 +320,10 @@ const questions = {
   reveal: "would most want to share"
 },
 {
-  question: "Which would you most want to hear / see when I walk in the door?",
+  question: "Which would you most want to see when you walk in the door?",
   pools: ["people", "objects"],
   count: 3,
-  reveal: "would most want to see when I walk in the door"
+  reveal: "would most want to see this when they walk in the door"
 },
 {
   question: "Which would you most want us to do the next time it rains?",
@@ -340,7 +341,7 @@ const questions = {
   question: "Which would you most want me to steal from you and wear?",
   pools: ["objects", "people"],
   count: 3,
-  reveal: "would most want me to steal and wear"
+  reveal: "would most want you to steal and wear"
 },
 {
   question: "Which would you most want to do the second we get a free evening?",
@@ -352,13 +353,13 @@ const questions = {
   question: "Which would you most want to feel against your skin right now?",
   pools: ["people", "objects"],
   count: 3,
-  reveal: "would most want to feel against your skin"
+  reveal: "would most want to feel against their skin"
 },
 {
   question: "Which would you most want me to do while you’re cooking?",
   pools: ["activities", "people"],
   count: 3,
-  reveal: "would most want me to do while you’re cooking"
+  reveal: "would most want you to do this while they’re cooking:"
 },
 {
   question: "Which would you most want to recreate with me?",
@@ -376,7 +377,7 @@ const questions = {
   question: "Which would you most want waiting for you when you get home?",
   pools: ["people", "objects", "activities"],
   count: 3,
-  reveal: "would most want waiting for you when you get home"
+  reveal: "would most want waiting for them when they get home"
 },
 {
   question: "Which would you most want to do with me right now if we had no plans?",
@@ -396,37 +397,37 @@ const questions = {
     question: "Which would you most want my hands on right now?",
     pools: ["people", "objects"],
     count: 3,
-    reveal: "would most want my hands on"
+    reveal: "would most want your hands on"
   },
   {
     question: "Which would you most want me to wear to bed tonight?",
     pools: ["people", "objects"],
     count: 3,
-    reveal: "would most want me to wear to bed"
+    reveal: "would most want you to wear to bed"
   },
   {
     question: "Which would you most want to feel against you right now?",
     pools: ["people", "objects"],
     count: 3,
-    reveal: "would most want to feel against you"
+    reveal: "would most want to feel against them:"
   },
   {
     question: "Which would you most want me to do the moment we’re alone?",
     pools: ["people", "activities"],
     count: 3,
-    reveal: "would most want me to do"
+    reveal: "would most want you to do"
   },
   {
     question: "Which would you most want to explore with your mouth?",
     pools: ["people", "objects"],
     count: 3,
-    reveal: "would most want to explore with your mouth"
+    reveal: "would most want to explore with their mouth"
   },
   {
     question: "Which would you most want me to leave on while everything else comes off?",
     pools: ["objects", "people"],
     count: 3,
-    reveal: "would most want me to leave on"
+    reveal: "would most want you to leave on"
   },
   {
     question: "Which would you most want to do in the kitchen when no one’s watching?",
@@ -438,7 +439,7 @@ const questions = {
     question: "Which would you most want to feel my breath on?",
     pools: ["people", "objects"],
     count: 3,
-    reveal: "would most want to feel my breath on"
+    reveal: "would most want to feel your breath on"
   },
   {
     question: "Which would you most want to start with tonight?",
@@ -451,13 +452,13 @@ const questions = {
     question: "Which would you most want my mouth on first?",
     pools: ["people", "objects"],
     count: 3,
-    reveal: "would most want my mouth on first"
+    reveal: "would most want your mouth on first"
   },
   {
     question: "Which would you most want to do to me right now?",
     pools: ["people", "activities"],
     count: 3,
-    reveal: "would most want to do to me"
+    reveal: "would most want to do to you:"
   },
   {
     question: "Which would you most want to feel inside you / around you?",
@@ -469,7 +470,7 @@ const questions = {
     question: "Which would you most want me to do with my hands?",
     pools: ["people", "objects"],
     count: 3,
-    reveal: "would most want me to do with my hands"
+    reveal: "would most want you to do with you hands"
   },
   {
     question: "Which position would you most want to try in the next 30 minutes?",
@@ -487,19 +488,19 @@ const questions = {
     question: "Which would you most want me to say while I’m doing it?",
     pools: ["people"],
     count: 3,
-    reveal: "would most want me to say"
+    reveal: "would most want you to say"
   },
   {
     question: "Which would you most want to do until one of us can’t take it anymore?",
     pools: ["people", "activities"],
     count: 3,
-    reveal: "would most want to do"
+    reveal: "would most want "
   },
   {
     question: "Which would you most want me to leave marks on?",
     pools: ["people"],
     count: 3,
-    reveal: "would most want me to leave marks on"
+    reveal: "would most want you to leave marks on"
   },
   {
     question: "Which would you most want to do with the lights on?",
