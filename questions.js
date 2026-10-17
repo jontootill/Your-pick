@@ -104,6 +104,8 @@ const imagePools = {
     { src: "images/medium/people/nude-female-back.jpeg", gender: "female", label: "this woman viewed from behind" },
     { src: "images/medium/people/nude-male-back.jpeg", gender: "male", label: "this man viewed from behind" },
     { src: "images/medium/people/lingerie-female.jpeg", gender: "female", label: "this woman wearing lingerie" },
+    { src: "images/medium/people/hairy-male.jpeg", gender: "male", label: "this hairy man" },
+    { src: "images/medium/people/hairy-female.jpeg", gender: "female", label: "this hairy woman" },
     { src: "images/medium/people/y-fronts-male.jpeg", gender: "male", label: "this man wearing budgie smugglers" },
     { src: "images/medium/people/babydoll-female.jpeg", gender: "female", label: "this woman wearing a babydoll" }
 
